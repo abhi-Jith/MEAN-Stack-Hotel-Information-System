@@ -1,2 +1,2 @@
 # MEAN stack App
-This repo contains a demo mean stack app
+This is a full stack "Hotel Information System" developed to understand the concepts of MEAN stack. It follows a RESTful API architecture using Node.js. This application can be used to keep track of information about Hotels and all basic CRUD operations are included. It also allows you to search hotels on Geo spatial data. This project includes setting up a web server using Node.js and Express, designing an mongo DB database and working on the same, setting up an robust REST APIs using Node.js, building an feature rich AngularJS single page application and finally setting authentication to mean stack.
