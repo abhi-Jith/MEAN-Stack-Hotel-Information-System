@@ -230,7 +230,7 @@ module.exports.reviewsDeleteOne = function (req, res) {
             if (response.status !== 200) {
                 res
                     .status(response.status)
-                    .json(response.message);
+                    .json(response.message);    
             } else {//passing id and using helper method to remove it
                 hotel.reviews.id(reviewId).remove();
                 hotel.save(function (err, hotelUpdated) {
