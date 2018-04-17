@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="meanhotel">
 <head>
-    <meta charset="utf-8" />
+    
     <title>MEAN HOTEL</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet" />
 
 </head> 
 <body>
-    <h1>Mean Hotel Homepage</h1>
+   
+    <div ng-view></div>
 
     <footer class="footer">
         <div class="container">
@@ -23,6 +24,10 @@
             </p>
         </div>
     </footer>
+
     <script src="jquery/jquery-2.1.4.min.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="angular-app/app.js"></script>
 </body>
 </html>
